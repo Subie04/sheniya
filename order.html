@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KADE 101</title>
+        <link rel="stylesheet" href="order.css">
+    </head>
+    <body id="body1">
+            <header class="header_1">
+                <div class="flex-container">
+                    <a href="index.html"><img class="logo" src="Images/Kadelogo.png" alt="mainlogo" length="100" width="100" ></a>
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="order.html">Order</a></li>
+                            <li><a href="aboutus.html">About us</a></li>  
+                            <li><a href="register.html">Register</a></li>
+                        </ul>   
+                        <h3 class="slogan">From Farm to Table, We've Got Your Goods Covered!</h3>
+                    </nav>
+                </div>
+            </header>
+            <br>  
+            <h1 class="h1">Order Now!</h1>
+            <div class="flex-container">
+            <nav class="navbar1">
+                <ul class="ul1">
+                    <li><a href="diary.html">Diary Products</a></li>
+                    <li><a href="vege.html">Fruits and Vegetables</a></li>
+                    <li><a href="skin.html">Cosmetics and Skin Care</a></li>
+                </ul>
+            </div> 
+            </nav><br> 
+        </section>
+        <section class="categories">
+            <fieldset class="category1">
+                <legend>Dairy Products</legend>
+                <label for="dairylbl">Dairy Products : </label>
+                <select name="dairylbl" id="">
+                    <option value="">Fresh Milk 500ml</option>
+                    <option value="">4 Flavours Yogurt</option>
+                    <option value="">Butter 350g</option>
+                    <option value="">Shredded Cheese 400g</option>
+                    <option value="">Whipped Cream 450ml</option>
+                    <option value="">Curd 400g</option>
+                    <option value="">Yogurt Drink 150ml</option>
+                    <option value="">Ice Cream Cones</option>
+                </select><br> <br>
+                <label for="quality">Quantity : </label>
+                <input type="number" min="0" placeholder="0">
+                <br><br>
+                <label for="currentPrice">Current Price(LKR) : </label>
+                <input type="number" min="0" readonly value="0">
+                <br><br>
+                <button id="clearBtn">Clear</button>
+                <button id="orderNowbtn">Order Now</button>
+            </fieldset>
+            <fieldset class="category2">
+                <legend>Vegetables and Fruits</legend>
+                <label for="veglbl">Vegetables and Fruits : </label>
+                <select name="veglbl" id="">
+                    <option value="">Banana 500g</option>
+                    <option value="">Green Apple 100g</option>
+                    <option value="">Red Apple 100g</option>
+                    <option value="">Oranges 200g</option>
+                    <option value="">Strawberry 650g</option>
+                    <option value="">Grapes 500g</option>
+                    <option value="">Carrots 3Kg</option>
+                    <option value="">Garlic 2Kg</option>
+                    <option value="">Mini Corn Cobs</option>
+                    <option value="">Bell Pepper 500g</option>
+                    <option value="">Tomatoes 450g</option>
+                    <option value="">Spinach 100g</option>
+                    <option value="">Pickle 500g</option>
+                    <option value="">Lettuce 350g</option>
+                    <option value="">Red Onion 1Kg</option>
+                    <option value="">Green Beans 500g</option>
+                </select><br> <br>
+                <label for="quality">Quantity : </label>
+                <input type="number" min="0" placeholder="0">
+                <br><br>
+                <label for="currentPrice">Current Price(LKR) : </label>
+                <input type="number" min="0" readonly value="0">
+                <br><br>
+                <button id="clearBtn">Clear</button>
+                <button id="orderNowbtn">Order Now</button>
+            </fieldset>
+            <fieldset class="category4">
+                <legend>Cosmetics and Skin care</legend>
+                <label for="coslbl">Cosmetics and Skin care : </label>
+                <select name="coslbl" id="">
+                    <option value="">Sheniya</option>
+                    <option value="">Uvini</option>
+                    <option value="">Ramutututututgala</option>
+                </select><br> <br>
+                <label for="quality">Quantity : </label>
+                <input type="number" min="0" placeholder="0">
+                <br><br>
+                <label for="currentPrice">Current Price(LKR) : </label>
+                <input type="number" min="0" readonly value="0">
+                <br><br>
+                <button id="clearBtn">Clear</button>
+                <button id="orderNowbtn">Order Now</button>
+            </fieldset>
+        </section>
+        <section class="categories">
+            <fieldset class="customerInfo">
+                <legend>Order Details</legend>
+                <label for="name">Name : </label>
+                <input type="text" placeholder="Enter your name">
+                <label for="address">Address : </label>
+                <input type="text" placeholder="Enter your address">
+                <label for="contact">Contact Number : </label>
+                <input type="text" placeholder="Enter your contact number">
+                <label for="email">Email : </label>
+                <input type="email" placeholder="Enter your email">
+                <label for="delivery">Delivery Date : </label>
+                <input type="date">
+                <label for="delivery">Delivery Method : </label>
+                <select name="delivery" id="">
+                    <option value="">Pickup</option>
+                    <option value="">Delivery</option>
+                </select>
+                <label for="delivery">Payment Method : </label>
+                <select name="delivery" id="">
+                    <option value="">Cash</option>
+                    <option value="">Card</option>
+                </select>
+                <button id="clearBtn" class="infobtns1">Clear</button>
+                <button id="checkOut" class="infobtns2">Check Out</button>
+            </fieldset>
+            <fieldset>
+                <legend>Order Summary</legend>
+
+            </fieldset>
+        </section>
+        <section>
+            <footer>
+                <div id="box-container">
+                <div class="footer-box">
+                    <div>
+                        <h2 class="h2">KADE 101</h2>
+                        <p class="p2"> 69 Hyde Park Corner, <br>Colombo 00200</p>
+                        <p class="p2">Contact Number: 011 269 6969</p>
+                    </div>
+                    <div>
+                        <h3 class="h3">CATERGORIES</h3>
+                        <ul class="list">
+                            <li>Diary Produtcs</li><br>
+                            <li>Fruits and Vegetables</li><br>
+                            <li>Cosmetics</li>
+                        </ul>
+                    </div>
+                    <div class="flex1">
+                        <img class="logo1" src="Images/Kadelogo.png" width="100" length="100">
+                    </div>
+                </div>      
+                </div>
+            </footer>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,154 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: #527674;
+  font-size:25px;
+  border-radius: 8px;
+}
+.slogan{
+  position: relative;
+  left: 25%;
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+}
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  transition: 0.5s ease-in;
+}
+li a:hover {
+  background-color: #004950;
+}
+.flex-container {
+  display: flex;
+}
+.navbar {
+  background-color:#527674;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  height: 80px;
+  transition-duration: 0.5s;  
+}
+li {
+  float: left;
+}
+.ul1{
+  display: flex;
+}
+.navbar1{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: #527674;
+  font-size:25px;
+  border-radius: 4px;
+  margin-left: 370px;
+}
+.h1{
+  margin-bottom: 2%;
+  color:#004950;
+  font-size: 50px;
+  text-align: center;
+}
+.note1{
+  margin-left: 35%;
+}
+footer {
+  background-color: #004950;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.footer-box {
+  background-color: #527674;
+  padding: 5px;
+  border-top: 2px solid #fff;
+  display: grid;
+  grid-template-columns: 20% auto auto;
+}
+.h2{
+  text-align: left;
+}
+.p2{
+  text-align: left;
+  left:10%;
+}
+.logo1{
+  float:right;
+}
+.flex1{
+  position: absolute;
+  display:flex;
+  right:0;
+  bottom: 25%;
+  top:25%;
+  right: 5%;
+}
+.box-container{
+  display:grid;
+  grid-template-columns: auto auto auto; 
+  /* grid-template-rows: 25% 100px auto; */
+}
+.list{
+  text-align: center;
+  font-size: 17px;
+}
+.footer-item ul {
+  list-style-type: disc; 
+  padding-left: 20px; 
+}
+.h3{
+  text-align: left;
+}
+.pinfoFieldset{
+  width: 57%;
+  margin-left: 28%;
+  border-radius: 20px;
+  text-align: left;
+}
+.pinfoFieldset input{
+  width: 30%;
+  margin-bottom: 10px
+}
+#addresstextarea{
+  resize: vertical;
+  margin-left: 31%;
+  position: relative;
+  bottom: 20px;
+}
+.pinfoFieldset label{
+  margin-left: 20%;
+}
+.submitBtn{
+  margin-left: 18%;
+  background: #8ccac7;
+  border-radius: 8px;
+  height: 10%;
+}
+.resetBtn{
+  background: #a4ecea;
+  border-radius: 8px;
+  height: 10%;
+}
+.submitBtn:hover{
+  background: #a4ece9;
+  border-radius: 8px;
+  height: 10%;
+}
+.resetBtn:hover{
+  background: #699b99;
+  border-radius: 8px;
+  height: 10%;
+}
